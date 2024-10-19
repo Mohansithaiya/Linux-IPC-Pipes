@@ -116,7 +116,7 @@ localhost:~# gcc fifo.c
 localhost:~# ./a.out
 FIFO created
 localhost:~# ls -l /tmp/my_fifo
-prwxr-xr-x    1 root     root             0 Sep 26 11:14 /tmp/my_fifo
+prwxr-xr-x    1 root     root             0 Oct 18 11:28 /tmp/my_fifo
 
 ```
 # RESULT:
