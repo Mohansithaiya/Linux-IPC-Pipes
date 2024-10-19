@@ -2,7 +2,6 @@
 Linux-IPC-Pipes
 ## NAME: MOHAN S
 ## REGISTER NO: 212223240094
-
 # Ex03-Linux IPC - Pipes
 
 # AIM:
@@ -23,7 +22,6 @@ Write the C Program using Linux Process API - pipe(), fifo()
 Testing the C Program for the desired output. 
 
 # PROGRAM:
-
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 ```
 #include<stdio.h>
@@ -83,7 +81,6 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
 
 ```
-
 ## OUTPUT
 ```
 cat> hello.txt
@@ -100,7 +97,6 @@ Operating systems
 to check pipe
 
 ```
-
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 ```
 #include <unistd.h>
@@ -114,7 +110,6 @@ if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
 }
 ```
-
 ## OUTPUT
 ```
 localhost:~# gcc fifo.c
@@ -124,6 +119,5 @@ localhost:~# ls -l /tmp/my_fifo
 prwxr-xr-x    1 root     root             0 Sep 26 11:14 /tmp/my_fifo
 
 ```
-
 # RESULT:
 The program is executed successfully.
